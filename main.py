@@ -18,6 +18,6 @@ async def on_ready():
 
 @tree.command(name="hello", description="挨拶します")
 async def start_command(interaction: discord.Interaction):
-    await interaction.response.send_message("こんにちは！")
+    await interaction.response.send_message("CI/CD成功です！")
 
 client.run(TOKEN)
